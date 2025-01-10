@@ -5,7 +5,7 @@ from pathlib import Path
 from acoustics import RoomAcoustics
 import matplotlib.pyplot as plt
 def load_room_specs(file_path):
-    """Load room specifications from a JSON file test."""
+    """Load room specifications from a JSON file test1."""
     with open(file_path, 'r') as file:
         return json.load(file)
 
