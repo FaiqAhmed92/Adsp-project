@@ -8,7 +8,7 @@ from acoustics import RoomAcoustics  # Your existing class
 
 # ===================== RT60 CALCULATION =====================
 def compute_room_volume(room_dims):
-    """Calculate room volume (length × width × heightfaiqq)."""
+    """Calculate room volume (length × width × height)."""
     length, width, height = room_dims
     return length * width * height
 
